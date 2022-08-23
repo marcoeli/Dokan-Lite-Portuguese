@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Dokan\n"
 "Report-Msgid-Bugs-To: https://wedevs.com/contact/\n"
 "POT-Creation-Date: 2022-08-10 06:15:45+00:00\n"
-"PO-Revision-Date: 2022-08-23 13:03-0300\n"
+"PO-Revision-Date: 2022-08-23 14:33-0300\n"
 "Last-Translator: \n"
 "Language-Team: Português do Brasil\n"
 "Language: pt_BR\n"
@@ -142,20 +142,14 @@ msgid "PRO Features"
 msgstr "Recursos PRO"
 
 #: includes/Admin/AdminBar.php:136
-#, fuzzy
-#| msgid "Visit Store"
 msgid "Visit Shop"
 msgstr "Visitar Loja"
 
 #: includes/Admin/AdminBar.php:145
-#, fuzzy
-#| msgid "Visit Store"
 msgid "Visit Stores"
 msgstr "Visitar Loja"
 
 #: includes/Admin/AdminBar.php:154
-#, fuzzy
-#| msgid "Vendor Dashboard"
 msgid "Visit Vendor Dashboard"
 msgstr "Painel do Vendedor"
 
@@ -230,6 +224,9 @@ msgid ""
 "for the Dokan plugin. Please change your permalink structure from <a href="
 "\"%s\">Settings > Permalinks</a>"
 msgstr ""
+"O<strong>Simples e Numérico</strong> A estrutura permalink não está "
+"funcionando para o plugin Dokan. Por favor, mude sua estrutura permalink de "
+"<a href=\"%s\">Configurações > Permalinks</a>"
 
 #: includes/Admin/Notices/Manager.php:120
 msgid "Go to Settings"
@@ -252,15 +249,15 @@ msgstr ""
 
 #: includes/Admin/Notices/PluginReview.php:78
 msgid "Yes, You Deserve It"
-msgstr ""
+msgstr "Sim, você o merece"
 
 #: includes/Admin/Notices/PluginReview.php:84
 msgid "Maybe Later"
-msgstr ""
+msgstr "Talvez mais tarde"
 
 #: includes/Admin/Notices/PluginReview.php:93
 msgid "I've Added My Review"
-msgstr ""
+msgstr "Acrescentei minha revisão"
 
 #: includes/Admin/Notices/PluginReview.php:125
 msgid "Invalid request"
@@ -500,16 +497,12 @@ msgstr ""
 "partir deste menu."
 
 #: includes/Admin/Settings.php:324
-#, fuzzy
-#| msgid "Withdraw Method"
 msgid "Withdraw Settings, Threshold"
-msgstr "Forma de Retirada"
+msgstr "Configurações de Retirada, limite"
 
 #: includes/Admin/Settings.php:326
-#, fuzzy
-#| msgid "Withdraw Options"
 msgid "Withdraw Settings"
-msgstr "Opções de Retirada"
+msgstr "Configurações de Retirada"
 
 #: includes/Admin/Settings.php:327
 msgid ""
@@ -518,16 +511,12 @@ msgid ""
 msgstr ""
 
 #: includes/Admin/Settings.php:333
-#, fuzzy
-#| msgid "Admin Commission "
 msgid "Admin commission config (on COD)"
-msgstr "Comissão de administração "
+msgstr "Configuração da comissão de administração (na COD)"
 
 #: includes/Admin/Settings.php:335
-#, fuzzy
-#| msgid "General Settings"
 msgid "Reverse Withdrawal Settings"
-msgstr "Configurações Gerais"
+msgstr "Ajustes de Retirada Reversa"
 
 #: includes/Admin/Settings.php:336
 msgid ""
@@ -540,16 +529,12 @@ msgid "Page Settings"
 msgstr "Configurações da Página"
 
 #: includes/Admin/Settings.php:342
-#, fuzzy
-#| msgid "Page Settings"
 msgid "Store Page Settings Manage"
-msgstr "Configurações da Página"
+msgstr "Gerenciar configurações da página da loja"
 
 #: includes/Admin/Settings.php:344
-#, fuzzy
-#| msgid "Page Settings"
 msgid "Site and Store Page Settings"
-msgstr "Configurações da Página"
+msgstr "Configurações do site e da página da loja"
 
 #: includes/Admin/Settings.php:345
 msgid ""
@@ -561,16 +546,12 @@ msgid "Appearance"
 msgstr "Aparência"
 
 #: includes/Admin/Settings.php:351
-#, fuzzy
-#| msgid "Appearance"
 msgid "Custom Store Appearance"
-msgstr "Aparência"
+msgstr "Aparência de loja personalizada"
 
 #: includes/Admin/Settings.php:353
-#, fuzzy
-#| msgid "Update Settings"
 msgid "Appearance Settings"
-msgstr "Atualizar configurações"
+msgstr "Ajustes de Aparência"
 
 #: includes/Admin/Settings.php:354
 msgid ""
@@ -584,20 +565,17 @@ msgid "Privacy Policy"
 msgstr "Política de Privacidade"
 
 #: includes/Admin/Settings.php:360
-#, fuzzy
-#| msgid "Enable Privacy Policy"
 msgid "Update Store Privacy Policies"
-msgstr "Habilitar política de privacidade"
+msgstr "Atualizar as políticas de privacidade da loja"
 
 #: includes/Admin/Settings.php:361
-#, fuzzy
-#| msgid "Page Settings"
 msgid "Privacy Settings"
-msgstr "Configurações da Página"
+msgstr "Configurações de privacidade"
 
 #: includes/Admin/Settings.php:362
 msgid "You can configure your site's privacy settings and policy."
 msgstr ""
+"Você pode definir as configurações e a política de privacidade do seu site."
 
 #: includes/Admin/Settings.php:383 includes/Admin/SetupWizard.php:524
 #: includes/Dashboard/Templates/Dashboard.php:101
@@ -617,29 +595,23 @@ msgid "On-hold"
 msgstr "Em espera"
 
 #: includes/Admin/Settings.php:394
-#, fuzzy
-#| msgid "Update Settings"
 msgid "Site Settings"
-msgstr "Atualizar configurações"
+msgstr "Configurações do site"
 
 #: includes/Admin/Settings.php:395
 msgid "Configure your site settings and control access to your site."
 msgstr ""
 
 #: includes/Admin/Settings.php:399
-#, fuzzy
-#| msgid "Admin area access"
 msgid "Admin Area Access"
-msgstr "Acesso à área de administração"
+msgstr "Acesso à Área de Administração"
 
 #: includes/Admin/Settings.php:400
-#, fuzzy
-#| msgid ""
-#| "Disallow Vendors and Customers from accessing the wp-admin dashboard area"
 msgid ""
 "Disallow vendors and customers from accessing the wp-admin dashboard area"
 msgstr ""
-"Não permitir que fornecedores e clientes acessem a área do painel wp-admin"
+"Impedir fornecedores e clientes de acessar a área do painel de controle wp-"
+"admin"
 
 #: includes/Admin/Settings.php:406
 #: templates/admin-setup-wizard/step-store.php:7
@@ -648,9 +620,6 @@ msgstr "URL da Loja do Vendedor"
 
 #. translators: %s: store url
 #: includes/Admin/Settings.php:408
-#, fuzzy
-#| msgid ""
-#| "Define the Vendor store URL (%s<strong>[this-text]</strong>/[vendor-name])"
 msgid ""
 "Define the vendor store URL (%s<strong>[this-text]</strong>/[vendor-name])"
 msgstr ""
@@ -662,10 +631,6 @@ msgid "Vendor Setup Wizard Logo"
 msgstr "Logotipo do Assistente de Configuração do Vendedor"
 
 #: includes/Admin/Settings.php:416
-#, fuzzy
-#| msgid ""
-#| "Recommended Logo size ( 270px X 90px ). If no logo is uploaded, site "
-#| "title is shown by default."
 msgid ""
 "Recommended logo size ( 270px X 90px ). If no logo is uploaded, site title "
 "is shown by default."
@@ -674,10 +639,8 @@ msgstr ""
 "carregado, o título do site será exibido por padrão."
 
 #: includes/Admin/Settings.php:420
-#, fuzzy
-#| msgid "Vendor Setup Wizard Logo"
 msgid "Vendor Setup Wizard Message"
-msgstr "Logotipo do Assistente de Configuração do Vendedor"
+msgstr "Mensagem do assistente de configuração do fornecedor"
 
 #: includes/Admin/Settings.php:422
 msgid ""
@@ -708,10 +671,8 @@ msgstr ""
 "fornecedor."
 
 #: includes/Admin/Settings.php:440
-#, fuzzy
-#| msgid "Vendor Store Options"
 msgid "Vendor Store Settings"
-msgstr "Opções da loja de fornecedores"
+msgstr "Configurações da loja do fornecedor"
 
 #: includes/Admin/Settings.php:441
 msgid ""
@@ -725,34 +686,37 @@ msgid "Store Terms and Conditions"
 msgstr "Termos e condições da loja"
 
 #: includes/Admin/Settings.php:447
-#, fuzzy
-#| msgid "Enable Terms and Conditions for vendor stores"
 msgid "Enable terms and conditions for vendor stores"
-msgstr "Habilitar Termos e Condições para lojas de fornecedores"
+msgstr "Habilitar termos e condições para lojas de fornecedores"
 
 #: includes/Admin/Settings.php:450
 msgid ""
 "Prompt terms and condition check for vendors when creating store on your site"
 msgstr ""
+"Termos rápidos e verificação de condições para fornecedores ao criar uma "
+"loja em seu site"
 
 #: includes/Admin/Settings.php:454 includes/Vendor/SetupWizard.php:189
 #: templates/settings/store-form.php:142
-#, fuzzy
-#| msgid "Store Product Per Page"
 msgid "Store Products Per Page"
-msgstr "Loja de Produto por Página"
+msgstr "Armazenar produtos por página"
 
 #: includes/Admin/Settings.php:455
 msgid ""
 "Set how many products to display per page on the vendor store page. It will "
 "affect only if the vendor isn't set this value on their vendor setting page."
 msgstr ""
+"Defina quantos produtos a serem exibidos por página na página da loja do "
+"fornecedor. Isso só afetará se o fornecedor não definir este valor em sua "
+"página de configuração de fornecedor."
 
 #: includes/Admin/Settings.php:458
 msgid ""
 "It will affect the vendor only if they havent set a value on their settings "
 "page."
 msgstr ""
+"Isso afetará o fornecedor somente se ele não tiver definido um valor em sua "
+"página de configurações."
 
 #: includes/Admin/Settings.php:467 includes/ReverseWithdrawal/Helper.php:64
 msgid "Commission"
@@ -763,22 +727,20 @@ msgid ""
 "Define commission types, admin commissions, shipping and tax recipients, and "
 "more."
 msgstr ""
+"Definir tipos de comissão, comissões de administração, recebedores de "
+"remessa e impostos, e muito mais."
 
 #: includes/Admin/Settings.php:473
 msgid "Commission Type "
 msgstr "Tipo de Comissão "
 
 #: includes/Admin/Settings.php:474
-#, fuzzy
-#| msgid "Select a commission type for Vendor"
 msgid "Select a commission type for vendor"
-msgstr "Selecione um tipo de Comissão para fornecedor"
+msgstr "Selecione um tipo de comissão para o fornecedor"
 
 #: includes/Admin/Settings.php:478
-#, fuzzy
-#| msgid "Set your commission type"
 msgid "Select a commission type"
-msgstr "Defina seu tipo de Comissão"
+msgstr "Selecione um tipo de comissão"
 
 #: includes/Admin/Settings.php:482 src/admin/pages/VendorPaymentFields.vue:78
 #: src/admin/pages/VendorPaymentFields.vue:87
@@ -796,10 +758,8 @@ msgid "Shipping Fee Recipient"
 msgstr "Destinatário da taxa de envio"
 
 #: includes/Admin/Settings.php:494
-#, fuzzy
-#| msgid "Who will be receiving the Shipping fees"
 msgid "Who will be receiving the shipping fees"
-msgstr "Quem estará recebendo as taxas de envio"
+msgstr "Quem receberá as taxas de envio"
 
 #: includes/Admin/Settings.php:498 includes/Admin/Settings.php:509
 #: includes/Admin/SetupWizard.php:346
@@ -809,18 +769,14 @@ msgstr "Admin"
 #: includes/Admin/Settings.php:504
 #: templates/admin-setup-wizard/step-store.php:28
 msgid "Tax Fee Recipient"
-msgstr "Beneficiário da taxa de imposto"
+msgstr "Destinatário da taxa de imposto"
 
 #: includes/Admin/Settings.php:505
-#, fuzzy
-#| msgid "Who will be receiving the Tax fees"
 msgid "Who will be receiving the tax fees"
-msgstr "Quem estará recebendo as taxas de imposto"
+msgstr "Quem receberá as taxas de impostos"
 
 #: includes/Admin/Settings.php:520 src/admin/pages/Premium.vue:20
 #: src/admin/pages/VendorCapabilities.vue:6
-#, fuzzy
-#| msgid "Vendor Capability"
 msgid "Vendor Capabilities"
 msgstr "Capacidade do fornecedor"
 
@@ -828,6 +784,8 @@ msgstr "Capacidade do fornecedor"
 msgid ""
 "Configure your multivendor site settings and vendor selling capabilities."
 msgstr ""
+"Ajuste as configurações de seu site de múltiplos fornecedores e as "
+"capacidades de venda de fornecedores."
 
 #: includes/Admin/Settings.php:527
 msgid "New Vendor Product Upload"
@@ -843,6 +801,10 @@ msgid ""
 "registration. If unchecked, newly registered vendors cannot add products "
 "until selling capability is activated manually from Dashboard -> Vendors."
 msgstr ""
+"Se verificado, os vendedores terão permissão para vender imediatamente após "
+"o registro. Se não verificado, os fornecedores recém registrados não poderão "
+"adicionar produtos até que a capacidade de venda seja ativada manualmente a "
+"partir do Painel -> Fornecedores."
 
 #: includes/Admin/Settings.php:535
 msgid "Disable Product Popup"
@@ -857,37 +819,40 @@ msgid ""
 "If disabled, instead of a pop up window vendor will redirect to product page "
 "when adding new product."
 msgstr ""
+"Se desativado, em vez de uma janela pop up, o fornecedor redirecionará para "
+"a página do produto ao adicionar um novo produto."
 
 #: includes/Admin/Settings.php:543 src/admin/pages/VendorCapabilities.vue:89
 #: templates/admin-setup-wizard/step-selling.php:39
 msgid "Order Status Change"
-msgstr "Alteração do Status do Pedido"
+msgstr "Mudança do status do pedido"
 
 #: includes/Admin/Settings.php:544
-#, fuzzy
-#| msgid "Allow/Disallow vendor to update order status"
 msgid "Allow vendor to update order status"
-msgstr "Permitir/não permitir que o fornecedor atualize o status da ordem"
+msgstr "Permitir que o fornecedor atualize o status do pedido"
 
 #: includes/Admin/Settings.php:547
 msgid ""
 "Checking this will enable sellers to change the order status. If unchecked, "
 "only admin can change the order status."
 msgstr ""
+"A verificação deste procedimento permitirá que os vendedores mudem o status "
+"do pedido. Se não for verificado, somente o administrador pode alterar o "
+"status do pedido."
 
 #: includes/Admin/Settings.php:567 includes/Admin/SetupWizard.php:474
 msgid "Withdraw Methods"
 msgstr "Métodos de Retirada"
 
 #: includes/Admin/Settings.php:568
-#, fuzzy
-#| msgid "Select suitable Withdraw methods for Vendors"
 msgid "Select suitable withdraw methods for vendors"
-msgstr "Selecione adequado retirar métodos para fornecedores"
+msgstr "Selecionar métodos de retirada adequados para fornecedores"
 
 #: includes/Admin/Settings.php:572
 msgid "Check to add available payment methods for vendors to withdraw money."
 msgstr ""
+"Cheque para adicionar métodos de pagamento disponíveis para que os "
+"fornecedores possam retirar dinheiro."
 
 #: includes/Admin/Settings.php:576 includes/Admin/SetupWizard.php:511
 msgid "Minimum Withdraw Limit"
@@ -916,6 +881,9 @@ msgid ""
 "Select the order status that will allow vendors to make withdraw request. We "
 "prefer you select \"completed\", \"processing\"."
 msgstr ""
+"Selecione o status do pedido que permitirá que os fornecedores façam o "
+"pedido de retirada. Nós preferimos que você selecione \"concluído\", "
+"\"processamento\"."
 
 #: includes/Admin/Settings.php:597
 msgid "Exclude COD Payments"
@@ -930,8 +898,6 @@ msgstr ""
 "saldo do fornecedor."
 
 #: includes/Admin/Settings.php:607
-#, fuzzy
-#| msgid "Select a page to show Vendor Dashboard"
 msgid "Select a page to show vendor dashboard"
 msgstr "Selecione uma página para mostrar o painel do fornecedor"
 
@@ -948,63 +914,47 @@ msgid "My Orders"
 msgstr "Meus Pedidos"
 
 #: includes/Admin/Settings.php:615
-#, fuzzy
-#| msgid "Select a page to show My Orders"
 msgid "Select a page to show my orders"
-msgstr "Selecione uma página para mostrar minhas ordens"
+msgstr "Selecione uma página para mostrar meus pedidos"
 
 #: includes/Admin/Settings.php:622
 msgid "Store Listing"
 msgstr "Listagem da loja"
 
 #: includes/Admin/Settings.php:623
-#, fuzzy
-#| msgid "Select a page to show all Stores"
 msgid "Select a page to show all stores"
 msgstr "Selecione uma página para mostrar todas as lojas"
 
 #: includes/Admin/Settings.php:631
-#, fuzzy
-#| msgid ""
-#| "Select where you want to add Dokan pages <a target=\"_blank\" href=\"%s"
-#| "\"> Learn More </a>"
 msgid "Select where you want to add Dokan pages."
-msgstr ""
-"Selecione onde deseja adicionar páginas do Dokan <a target=\"_blank\" href="
-"\"%s\"> Saiba mais </a>"
+msgstr "Selecione onde você deseja adicionar as páginas Dokan."
 
 #: includes/Admin/Settings.php:632
 msgid "Terms and Conditions Page"
 msgstr "Página de Termos e Condições"
 
 #: includes/Admin/Settings.php:634
-#, fuzzy
-#| msgid "Select a page to show Terms and Conditions"
 msgid ""
 "Select a page to display the Terms and Conditions of your store for Vendors."
-msgstr "Selecione uma página para mostrar termos e condições"
+msgstr ""
+"Selecione uma página para exibir os Termos e Condições de sua loja para "
+"Fornecedores."
 
 #: includes/Admin/Settings.php:643
-#, fuzzy
-#| msgid "Appearance"
 msgid "Store Appearance"
-msgstr "Aparência"
+msgstr "Aparência da loja"
 
 #: includes/Admin/Settings.php:644
 msgid "Configure your site appearances."
-msgstr ""
+msgstr "Configure as aparências de seu site."
 
 #: includes/Admin/Settings.php:648
-#, fuzzy
-#| msgid "Show Map on Store Page"
 msgid "Show map on Store Page"
-msgstr "Mostrar Mapa na Página da Loja"
+msgstr "Mostrar mapa na página da loja"
 
 #: includes/Admin/Settings.php:649
-#, fuzzy
-#| msgid "Enable Map of the Store Location in the store sidebar"
 msgid "Enable map of the store location in the store sidebar"
-msgstr "Ativar o mapa da localização da loja na barra lateral da loja"
+msgstr "Habilitar o mapa da localização da loja na barra lateral da loja"
 
 #: includes/Admin/Settings.php:655
 #: templates/admin-setup-wizard/step-store.php:42
@@ -1012,10 +962,8 @@ msgid "Map API Source"
 msgstr "Mapa API Fonte"
 
 #: includes/Admin/Settings.php:656
-#, fuzzy
-#| msgid "Which Map API source you want to use in your site?"
 msgid "Which map API source you want to use in your site?"
-msgstr "Qual fonte de API do Mapa você deseja usar em seu site?"
+msgstr "Qual fonte API de mapa você deseja usar em seu site?"
 
 #: includes/Admin/Settings.php:661 includes/Admin/SetupWizard.php:359
 #: src/admin/pages/Premium.vue:388
@@ -1044,6 +992,7 @@ msgstr ""
 #: includes/Admin/Settings.php:670
 msgid "Insert Google API Key (with hyperlink) to display store map."
 msgstr ""
+"Insira a chave API do Google (com hiperlink) para exibir o mapa da loja."
 
 #: includes/Admin/Settings.php:674
 #: templates/admin-setup-wizard/step-store.php:71
@@ -1064,6 +1013,7 @@ msgstr ""
 #: includes/Admin/Settings.php:677
 msgid "Insert Mapbox Access Token (with hyperlink) to display store map."
 msgstr ""
+"Insira o Token de Acesso Mapbox (com hiperlink) para exibir o mapa da loja."
 
 #. translators: 1) Opening anchor tag, 2) Closing anchor tag, 3) Opening anchor
 #. tag, 4) Closing anchor tag
@@ -1072,31 +1022,35 @@ msgid ""
 "%1$sreCAPTCHA%2$s credentials required to enable invisible captcha for "
 "contact forms. %3$sGet Help%4$s"
 msgstr ""
+"%1$sreCAPTCHA%2$s credenciais necessárias para permitir a captura invisível "
+"de formulários de contato. %3$sObter ajuda%4$s"
 
 #: includes/Admin/Settings.php:690
 msgid "Google reCAPTCHA Validation"
-msgstr ""
+msgstr "Validação Google reCAPTCHA"
 
 #: includes/Admin/Settings.php:692
 msgid ""
 "You can successfully connect to your Google reCaptcha account from here."
 msgstr ""
+"Você pode se conectar com sucesso à sua conta Google reCaptcha a partir "
+"daqui."
 
 #: includes/Admin/Settings.php:696
 msgid "Site Key"
-msgstr ""
+msgstr "Chave do site"
 
 #: includes/Admin/Settings.php:697
 msgid "Insert Google reCAPTCHA v3 site key."
-msgstr ""
+msgstr "Insira a chave do site Google reCAPTCHA v3."
 
 #: includes/Admin/Settings.php:702
 msgid "Secret Key"
-msgstr ""
+msgstr "Secret Key"
 
 #: includes/Admin/Settings.php:704
 msgid "Insert Google reCAPTCHA v3 secret key."
-msgstr ""
+msgstr "Insira a chave secreta do Google reCAPTCHA v3."
 
 #: includes/Admin/Settings.php:710
 msgid "Show Contact Form on Store Page"
@@ -1108,10 +1062,8 @@ msgstr ""
 "Exibir um formulário de contato do fornecedor na barra lateral do repositório"
 
 #: includes/Admin/Settings.php:718
-#, fuzzy
-#| msgid "Set up your account for our store"
 msgid "Select a store header for your store."
-msgstr "Configure sua conta para nossa loja"
+msgstr "Selecione um cabeçalho de loja para sua loja."
 
 #: includes/Admin/Settings.php:719
 msgid "Store Header Template"
@@ -1132,10 +1084,8 @@ msgid "Enable Store Sidebar From Theme"
 msgstr "Ativar barra lateral da loja do tema"
 
 #: includes/Admin/Settings.php:738
-#, fuzzy
-#| msgid "Enable showing Store Sidebar From Your Theme."
 msgid "Enable showing store sidebar from your theme."
-msgstr "Ative a exibição da barra lateral da loja do seu tema."
+msgstr "Habilitar a exibição da barra lateral da loja a partir de seu tema."
 
 #: includes/Admin/Settings.php:744
 msgid "Hide Vendor Info"
@@ -1161,12 +1111,10 @@ msgid "Enable Privacy Policy"
 msgstr "Habilitar política de privacidade"
 
 #: includes/Admin/Settings.php:763
-#, fuzzy
-#| msgid "Enable privacy policy for Vendor store contact form"
 msgid "Enable privacy policy for vendor store contact form"
 msgstr ""
-"Habilitar política de privacidade para formulário de contato da loja de "
-"fornecedores"
+"Habilitar política de privacidade para formulário de contato da loja do "
+"fornecedor"
 
 #: includes/Admin/Settings.php:768
 msgid "Privacy Page"
@@ -1189,6 +1137,7 @@ msgstr ""
 #: includes/Admin/Settings.php:779
 msgid "Customize the Privacy Policy text that will be displayed on your store."
 msgstr ""
+"Personalize o texto da Política de Privacidade que será exibido em sua loja."
 
 #: includes/Admin/Settings.php:852
 msgid "Both section and field params are required."
@@ -1199,27 +1148,25 @@ msgid "No filter found to refresh the setting options"
 msgstr "Nenhum filtro encontrado para atualizar as opções de configuração"
 
 #: includes/Admin/Settings.php:893
-#, fuzzy
-#| msgid "Minimum Withdraw Limit"
 msgid "Minimum Withdraw Limit can't be negative value."
-msgstr "Limite Mínimo de Retirada"
+msgstr "O limite mínimo de retirada não pode ser um valor negativo."
 
 #: includes/Admin/Settings.php:904
 #: includes/ReverseWithdrawal/Admin/Settings.php:214
 msgid "Validation error"
-msgstr ""
+msgstr "Erro de validação"
 
 #: includes/Admin/Settings.php:922
-#, fuzzy
-#| msgid "Clear"
 msgid "Data Clear"
-msgstr "Limpar"
+msgstr "Limpeza de dados"
 
 #: includes/Admin/Settings.php:923
 msgid ""
 "Delete all data and tables related to Dokan and Dokan Pro plugin while "
 "deleting the Dokan plugin."
 msgstr ""
+"Apagar todos os dados e tabelas relacionados ao plugin Dokan e Dokan Pro "
+"enquanto se apaga o plugin Dokan."
 
 #: includes/Admin/Settings.php:926
 msgid ""
@@ -1228,6 +1175,10 @@ msgid ""
 "delete all the data related to Dokan Pro as well. This won't happen when the "
 "plugins are deactivated.."
 msgstr ""
+"Verifique isto para remover os dados e tabela relacionados à Dokan do banco "
+"de dados ao apagar o plugin. Quando você apagar a versão lite do Dokan, ele "
+"também apagará todos os dados relacionados ao Dokan Pro. Isto não acontecerá "
+"quando os plugins forem desativados."
 
 #: includes/Admin/SetupWizard.php:146 includes/Vendor/SetupWizard.php:70
 msgid "Introduction"
@@ -1261,7 +1212,7 @@ msgstr "Retornar ao Painel do WordPress"
 #: includes/Admin/SetupWizard.php:320
 #: templates/admin-setup-wizard/step-no-wc-introduction.php:2
 msgid "Welcome to the world of Dokan!"
-msgstr "Bem-vindo ao mundo da Criptosfera!"
+msgstr "Bem-vindo ao mundo de Dokan!"
 
 #: includes/Admin/SetupWizard.php:321
 msgid ""
@@ -1269,10 +1220,10 @@ msgid ""
 "setup wizard will help you configure the basic settings. <strong>It’s "
 "completely optional and shouldn’t take longer than three minutes.</strong>"
 msgstr ""
-"Obrigado por escolher a Criptosfera para promover a sua loja online! Este "
-"assistente de configuração rápida irá ajudá-lo a informar as configurações "
-"básicas. <strong>É completamente opcional e não deve levar mais que três "
-"minutos.</strong>"
+"Obrigado por escolher a Dokan para abastecer seu mercado online! Este "
+"assistente de configuração rápida ajudará você a configurar as configurações "
+"básicas. <strong>É completamente opcional e não deve demorar mais do que "
+"três minutos.</strong>"
 
 #: includes/Admin/SetupWizard.php:322
 msgid ""
@@ -1737,20 +1688,16 @@ msgid "Please provide your name."
 msgstr "Por favor, forneça o seu nome."
 
 #: includes/Ajax.php:336
-#, fuzzy
-#| msgid "Please provide your name."
 msgid "Please provide your email."
-msgstr "Por favor, forneça o seu nome."
+msgstr "Por favor, forneça seu e-mail."
 
 #: includes/Ajax.php:343 includes/template-tags.php:167
 msgid "Something went wrong!"
 msgstr "Algo deu errado!"
 
 #: includes/Ajax.php:353
-#, fuzzy
-#| msgid "Nonce verification failed"
 msgid "reCAPTCHA verification failed!"
-msgstr "A verificação não relacionada falhou"
+msgstr "A verificação reCAPTCHA falhou!"
 
 #: includes/Ajax.php:360 includes/REST/StoreController.php:836
 msgid "Email sent successfully!"
@@ -1786,10 +1733,8 @@ msgstr "A imagem não pôde ser processada. Por favor, volte e tente novamente."
 
 #. translators: 1. Customer name, 2. Customer ID, 3: Customer email
 #: includes/Ajax.php:781
-#, fuzzy
-#| msgid "%1$s %2$d"
 msgid "%1$s"
-msgstr "%1$s %2$d"
+msgstr "%1$s"
 
 #: includes/Ajax.php:927
 msgid "Invalid username or password."
@@ -1817,10 +1762,8 @@ msgid "Something went wrong. Please try again."
 msgstr "Algo deu errado. Por favor, tente novamente."
 
 #: includes/Assets.php:531
-#, fuzzy
-#| msgid "Are you sure you want to remove this variation?"
 msgid "Are you sure you want to revoke access to this download?"
-msgstr "Tem certeza de que deseja remover esta variação?"
+msgstr "Você tem certeza de que quer revogar o acesso a este download?"
 
 #: includes/Assets.php:532
 msgid ""
@@ -1828,16 +1771,17 @@ msgid ""
 "or billing email is not set. Ensure the billing email is set, and the order "
 "has been saved."
 msgstr ""
+"Não foi possível conceder acesso - o usuário pode já ter permissão para este "
+"arquivo ou o e-mail de cobrança não está definido. Certifique-se de que o e-"
+"mail de cobrança esteja configurado e que o pedido tenha sido salvo."
 
 #: includes/Assets.php:583
-#, fuzzy
-#| msgid "- Select a category -"
 msgid "Select a category"
-msgstr "- Selecione uma categoria -"
+msgstr "Selecione uma categoria"
 
 #: includes/Assets.php:584
 msgid "This category has already been selected"
-msgstr ""
+msgstr "Esta categoria já foi selecionada"
 
 #: includes/Assets.php:656 templates/products/new-product-single.php:247
 #: templates/products/new-product.php:190
@@ -1853,11 +1797,11 @@ msgstr "De"
 
 #: includes/Assets.php:659
 msgid " - "
-msgstr ""
+msgstr " - "
 
 #: includes/Assets.php:660
 msgid "W"
-msgstr ""
+msgstr "W"
 
 #: includes/Assets.php:661 src/admin/main.js:27
 #: src/admin/pages/ReverseWithdrawalTransactions.vue:100
@@ -1872,94 +1816,84 @@ msgid "Clear"
 msgstr "Limpar"
 
 #: includes/Assets.php:663 includes/Withdraw/Hooks.php:46
-#, fuzzy
-#| msgid "Customer"
 msgid "Custom"
-msgstr "Cliente"
+msgstr "Personalizado"
 
 #: includes/Assets.php:665
 msgid "Su"
-msgstr ""
+msgstr "Dom"
 
 #: includes/Assets.php:666
 msgid "Mo"
-msgstr ""
+msgstr "Seg"
 
 #: includes/Assets.php:667
 msgid "Tu"
-msgstr ""
+msgstr "Ter"
 
 #: includes/Assets.php:668
 msgid "We"
-msgstr ""
+msgstr "Qua"
 
 #: includes/Assets.php:669
 msgid "Th"
-msgstr ""
+msgstr "Qui"
 
 #: includes/Assets.php:670
-#, fuzzy
-#| msgid "From"
 msgid "Fr"
-msgstr "De"
+msgstr "Sex"
 
 #: includes/Assets.php:671
 msgid "Sa"
-msgstr ""
+msgstr "Sab"
 
 #: includes/Assets.php:674
 msgid "January"
-msgstr ""
+msgstr "Janeiro"
 
 #: includes/Assets.php:675
 msgid "February"
-msgstr ""
+msgstr "Fevereiro"
 
 #: includes/Assets.php:676
-#, fuzzy
-#| msgid "Search"
 msgid "March"
-msgstr "Pesquisar"
+msgstr "Março"
 
 #: includes/Assets.php:677
 msgid "April"
-msgstr ""
+msgstr "Abril"
 
 #: includes/Assets.php:678
-#, fuzzy
-#| msgid "Pay"
 msgid "May"
-msgstr "Pagar"
+msgstr "Maio"
 
 #: includes/Assets.php:679
 msgid "June"
-msgstr ""
+msgstr "Junho"
 
 #: includes/Assets.php:680
 msgid "July"
-msgstr ""
+msgstr "Julho"
 
 #: includes/Assets.php:681
 msgid "August"
-msgstr ""
+msgstr "Agosto"
 
 #: includes/Assets.php:682
 msgid "September"
-msgstr ""
+msgstr "Setembro"
 
 #: includes/Assets.php:683
 msgid "October"
-msgstr ""
+msgstr "Outubro"
 
 #: includes/Assets.php:684
-#, fuzzy
-#| msgid "Phone Number"
 msgid "November"
-msgstr "Número de Telefone"
+msgstr "Novembro"
 
 #: includes/Assets.php:685
 msgid "December"
-msgstr ""
+msgstr "Dezembro"
 
 #: includes/Assets.php:701
 msgid "This field is required"
@@ -2209,10 +2143,8 @@ msgid "Product category is required"
 msgstr "A categoria do produto é necessária"
 
 #: includes/Assets.php:934
-#, fuzzy
-#| msgid "The product has been saved successfully."
 msgid "Product created successfully"
-msgstr "O produto foi salvo com sucesso."
+msgstr "Produto criado com sucesso"
 
 #: includes/Assets.php:938
 msgid "One result is available, press enter to select it."
@@ -2289,8 +2221,6 @@ msgid "Cancel"
 msgstr "Cancelar"
 
 #: includes/Assets.php:953
-#, fuzzy
-#| msgid "Attribute name."
 msgid "Attribute Name"
 msgstr "Nome do Atributo."
 
@@ -2309,16 +2239,12 @@ msgid "Update Settings"
 msgstr "Atualizar configurações"
 
 #: includes/CatalogMode/Admin/Settings.php:39
-#, fuzzy
-#| msgid "Product Category"
 msgid "Product Catalog Mode"
-msgstr "Categoria de Produto"
+msgstr "Modo de Catálogo de Produtos"
 
 #: includes/CatalogMode/Admin/Settings.php:41
-#, fuzzy
-#| msgid "Create Customizable Paid Subscription Packs For Your Vendors"
 msgid "Control Catalog Mode Settings For Your Vendors"
-msgstr "Crie pacotes de assinatura pagos personalizáveis para seus vendedores"
+msgstr "Controle do modo de catálogo Configurações para seus fornecedores"
 
 #: includes/CatalogMode/Admin/Settings.php:46
 #: includes/CatalogMode/Dashboard/Settings.php:62
@@ -2331,16 +2257,12 @@ msgstr "Marque para remover a opção Adicionar ao carrinho."
 
 #: includes/CatalogMode/Admin/Settings.php:53
 #: includes/CatalogMode/Dashboard/Settings.php:74
-#, fuzzy
-#| msgid "Product price."
 msgid "Hide Product Price"
-msgstr "Preço do veículo."
+msgstr "Esconder o preço do produto"
 
 #: includes/CatalogMode/Admin/Settings.php:54
-#, fuzzy
-#| msgid "Current product price."
 msgid "Check to hide product price."
-msgstr "Preço Atual do Produto."
+msgstr "Verifique para ocultar o preço do produto."
 
 #: includes/CatalogMode/Dashboard/ProductBulkEdit.php:47
 msgid "Enable Catalog Mode"
@@ -2352,18 +2274,14 @@ msgstr "Desativar o modo de catálogo"
 
 #. translators: %d is product count.
 #: includes/CatalogMode/Dashboard/ProductBulkEdit.php:133
-#, fuzzy
-#| msgid "The product has been saved successfully."
 msgid "%d product has been successfully updated."
 msgid_plural "%d products have been successfully updated."
 msgstr[0] "O produto foi salvo com sucesso."
-msgstr[1] "O produto foi salvo com sucesso."
+msgstr[1] "Os produtos foram salvos com sucesso."
 
 #: includes/CatalogMode/Dashboard/ProductBulkEdit.php:142
-#, fuzzy
-#| msgid "No product has been found!"
 msgid "No product data has been updated."
-msgstr "Nenhum produto encontrado!"
+msgstr "Nenhum dado do produto foi atualizado."
 
 #: includes/CatalogMode/Dashboard/Settings.php:67
 #: templates/products/catalog-mode-content.php:38
@@ -2395,10 +2313,8 @@ msgid "Page %s"
 msgstr "Página %s"
 
 #: includes/Customizer.php:72
-#, fuzzy
-#| msgid "Store name"
 msgid "Store Page"
-msgstr "Nome da loja"
+msgstr "Página da loja"
 
 #: includes/Customizer.php:93
 msgid "Page Layout"
@@ -2413,20 +2329,16 @@ msgid "Right Sidebar"
 msgstr "Barra lateral direita"
 
 #: includes/Customizer.php:105
-#, fuzzy
-#| msgid "Dokan Store Sidebar"
 msgid "No Sidebar"
-msgstr "Barra Lateral da Loja do Dokan"
+msgstr "Sem barra lateral"
 
 #: includes/Customizer.php:127
 msgid "Use theme sidebar"
-msgstr ""
+msgstr "Use a barra lateral do tema"
 
 #: includes/Customizer.php:155
-#, fuzzy
-#| msgid "Store Header Template"
 msgid "Header Template"
-msgstr "Modelo do Cabeçalho da Loja"
+msgstr "Modelo de cabeçalho"
 
 #: includes/Customizer.php:159
 msgid "Default Layout"
@@ -2449,66 +2361,48 @@ msgid "Vendor Info"
 msgstr "Informação do fornecedor"
 
 #: includes/Customizer.php:206
-#, fuzzy
-#| msgid "Email address"
 msgid "Hide email address"
-msgstr "Endereço de email"
+msgstr "Ocultar endereço de e-mail"
 
 #: includes/Customizer.php:228
-#, fuzzy
-#| msgid "Phone number."
 msgid "Hide phone number"
-msgstr "Número de telefone."
+msgstr "Ocultar número de telefone"
 
 #: includes/Customizer.php:250
-#, fuzzy
-#| msgid "Store Address"
 msgid "Hide store address"
-msgstr "Endereço"
+msgstr "Ocultar endereço da loja"
 
 #: includes/Customizer.php:281
-#, fuzzy
-#| msgid "More Products"
 msgid "Vendor Products"
-msgstr "Mais Produtos"
+msgstr "Produtos de fornecedores"
 
 #: includes/Customizer.php:301
-#, fuzzy
-#| msgid "View product menu"
 msgid "Hide product filter"
-msgstr "Ver menu do produto"
+msgstr "Ocultar filtro de produto"
 
 #: includes/Customizer.php:316
 msgid "Sidebar Widgets"
 msgstr "Widgets laterais"
 
 #: includes/Customizer.php:338
-#, fuzzy
-#| msgid "Show Map on Store Page"
 msgid "Show store map"
-msgstr "Mostrar Mapa na Página da Loja"
+msgstr "Mostrar mapa da loja"
 
 #: includes/Customizer.php:361
-#, fuzzy
-#| msgid "Dokan Vendor Contact Form"
 msgid "Show vendor contact form"
-msgstr "Formulário de Contato do Vendedor do Dokan"
+msgstr "Mostrar formulário de contato do fornecedor"
 
 #: includes/Customizer.php:383
-#, fuzzy
-#| msgid "Store Opening Closing Time"
 msgid "Show store opening/closing Time"
-msgstr "Horário de Funcionamento da Loja"
+msgstr "Mostrar tempo de abertura/fechamento da loja"
 
 #: includes/Customizer.php:395 includes/Install/Installer.php:178
 msgid "Store List"
 msgstr "Lista de Lojas"
 
 #: includes/Customizer.php:418
-#, fuzzy
-#| msgid "Store Listing"
 msgid "Store List Sorting"
-msgstr "Listagem da loja"
+msgstr "Seleção da lista de lojas"
 
 #: includes/Customizer.php:419
 msgid "How should stores be sorted by default?"
@@ -2540,10 +2434,8 @@ msgid "You have no permission to view this order"
 msgstr "Você não tem permissão para visualizar este pedido"
 
 #: includes/Dashboard/Templates/Orders.php:97
-#, fuzzy
-#| msgid "Nonce verification failed"
 msgid "Nonce verification failed!"
-msgstr "A verificação não relacionada falhou"
+msgstr "A verificação sem êxito falhou!"
 
 #: includes/Dashboard/Templates/Orders.php:117
 #: includes/Dashboard/Templates/Products.php:215 src/admin/main.js:25
@@ -2595,10 +2487,8 @@ msgstr "Selecione uma categoria"
 #: includes/Dashboard/Templates/Products.php:264
 #: includes/Dashboard/Templates/Products.php:424
 #: includes/Product/functions.php:43
-#, fuzzy
-#| msgid "Please select a category"
 msgid "Please select at least one category"
-msgstr "Selecione uma categoria"
+msgstr "Por favor, selecione pelo menos uma categoria"
 
 #: includes/Dashboard/Templates/Products.php:434
 msgid "No product found!"
@@ -2611,13 +2501,10 @@ msgstr "Eu juro que este não é o seu produto!"
 #. translators: %s: maximum tag length
 #: includes/Dashboard/Templates/Products.php:453
 #: includes/Product/functions.php:121
-#, fuzzy
-#| msgid "You can only select 1 item"
 msgid "You can only select %s tags"
-msgstr "Você só pode selecionar 1 item"
+msgstr "Você só pode selecionar %s tags"
 
 #: includes/Dashboard/Templates/ReverseWithdrawal.php:118
-#, fuzzy
 msgid ""
 "You have a reverse withdrawal balance of %1$s to be paid. Please <a href="
 "\"%2$s\">pay</a> it before %3$s. Below actions will be taken after the "
@@ -2637,22 +2524,16 @@ msgstr ""
 "novamente."
 
 #: includes/Dashboard/Templates/ReverseWithdrawal.php:246
-#, fuzzy
-#| msgid "Are you sure you want to remove this variation?"
 msgid "Are you sure you want to pay this amount?"
-msgstr "Tem certeza de que deseja remover esta variação?"
+msgstr "Você tem certeza de que quer pagar esta quantia?"
 
 #: includes/Dashboard/Templates/ReverseWithdrawal.php:248
-#, fuzzy
-#| msgid "Something went wrong"
 msgid "Something went wrong."
-msgstr "Algo deu errado"
+msgstr "Algo deu errado."
 
 #: includes/Dashboard/Templates/ReverseWithdrawal.php:249
-#, fuzzy
-#| msgid "Success!"
 msgid "Success."
-msgstr "Sucesso!"
+msgstr "Sucesso."
 
 #: includes/Dashboard/Templates/Settings.php:63
 msgid "Payment Method"
@@ -2675,12 +2556,8 @@ msgstr ""
 "administrador do site."
 
 #: includes/Dashboard/Templates/Settings.php:297
-#, fuzzy
-#| msgid "No withdraw method is available. Please contact site admin."
 msgid "Invalid withdraw method. Please contact site admin"
-msgstr ""
-"Não há método de saque disponível. Por favor, entre em contato com o "
-"administrador do site."
+msgstr "Método de retirada inválido. Favor entrar em contato com o site admin"
 
 #: includes/Dashboard/Templates/Settings.php:331
 msgid "Pemission denied social"
@@ -2723,34 +2600,24 @@ msgid "Address field for %s is required"
 msgstr "O campo de endereço para %s é necessário"
 
 #: includes/Dashboard/Templates/Settings.php:584
-#, fuzzy
-#| msgid "Store Name is required"
 msgid "Account holder name is required"
-msgstr "Nome da loja é necessário"
+msgstr "O nome do titular da conta é obrigatório"
 
 #: includes/Dashboard/Templates/Settings.php:588
-#, fuzzy
-#| msgid "Account Number "
 msgid "Account number is required"
-msgstr "Número da conta "
+msgstr "É necessário o número da conta"
 
 #: includes/Dashboard/Templates/Settings.php:592
-#, fuzzy
-#| msgid "Routing number"
 msgid "Routing number is required"
-msgstr "Número de roteamento"
+msgstr "Número de roteamento é necessário"
 
 #: includes/Dashboard/Templates/Settings.php:596
-#, fuzzy
-#| msgid "Please select an image,"
 msgid "Please select account type"
-msgstr "Selecione uma imagem,"
+msgstr "Por favor, selecione o tipo de conta"
 
 #: includes/Dashboard/Templates/Settings.php:598
-#, fuzzy
-#| msgid "Invalid nonce"
 msgid "Invalid Account Type"
-msgstr "Inválido neste momento"
+msgstr "Tipo de conta inválida"
 
 #: includes/Dashboard/Templates/Settings.php:602
 msgid "You must attest that the bank account is yours."
@@ -2762,27 +2629,23 @@ msgstr "Livro"
 
 #: includes/Dashboard/Templates/Settings.php:784
 msgid "Dress"
-msgstr "Vestir"
+msgstr "Vestido"
 
 #: includes/Dashboard/Templates/Settings.php:785
 msgid "Electronic"
 msgstr "Eletrônica"
 
 #: includes/Dashboard/Templates/Settings.php:805
-#, fuzzy
-#| msgid "Payment Settings"
 msgid "Bank Account Settings"
-msgstr "Configurações de Pagamento"
+msgstr "Configurações da conta bancária"
 
 #: includes/Dashboard/Templates/Settings.php:810
-#, fuzzy
-#| msgid "Page Settings"
 msgid "Paypal Settings"
-msgstr "Configurações da Página"
+msgstr "Configurações do Paypal"
 
 #: includes/Dashboard/Templates/Withdraw.php:125
 msgid "Missing withdraw id."
-msgstr "Nenhum ID de saque encontrado."
+msgstr "Falta de id. de retirada."
 
 #: includes/Dashboard/Templates/Withdraw.php:136
 #: templates/global/seller-warning.php:12
@@ -2793,15 +2656,15 @@ msgstr ""
 
 #: includes/Dashboard/Templates/Withdraw.php:190
 msgid "withdraw_amount is required"
-msgstr "quantia (withdraw_amount) solicitada para saque"
+msgstr "withdraw_amount é necessário"
 
 #: includes/Dashboard/Templates/Withdraw.php:194
 msgid "withdraw_method is required"
-msgstr "método de saque (withdraw_method) obrigatório"
+msgstr "withdraw_method é necessário"
 
 #: includes/Dashboard/Templates/Withdraw.php:335
 msgid "Current Balance: %s "
-msgstr "Saldo Atual: %s "
+msgstr "Saldo atual: %s "
 
 #: includes/Dashboard/Templates/Withdraw.php:338
 msgid "<br>Minimum Withdraw amount: %s "
@@ -2852,53 +2715,42 @@ msgid "Sorry, no transactions were found!"
 msgstr "Desculpe, não foram encontradas transações!"
 
 #: includes/Dashboard/Templates/Withdraw.php:578
-#, fuzzy
-#| msgid "You already have pending withdraw request(s)."
 msgid "You do not have any approved withdraw yet."
-msgstr "Você já possui pedidos pendentes de retirada."
+msgstr "Você ainda não tem nenhuma retirada aprovada."
 
 #. translators: 1: Last formatted withdraw amount 2: Last formatted withdraw
 #. date 3: Last formatted withdraw method used.
 #: includes/Dashboard/Templates/Withdraw.php:586
-#, fuzzy
-#| msgid "%1$s (%2$s %3$s)"
 msgid "%1$s on %2$s to %3$s"
-msgstr "%1$s (%2$s %3$s)"
+msgstr "%1$s on %2$s to %3$s"
 
 #: includes/Dashboard/Templates/Withdraw.php:629
-#, fuzzy
-#| msgid ""
-#| "Please submit your request after approval or cancellation of your "
-#| "previous request."
 msgid ""
 "You already have pending withdraw request(s). Please submit your request "
 "after approval or cancellation of your previous request."
 msgstr ""
-"Envie seu pedido após a aprovação ou cancelamento do seu pedido anterior."
+"Você já tem pedido(s) de retirada pendente(s). Favor apresentar sua "
+"solicitação após a aprovação ou cancelamento de sua solicitação anterior."
 
 #: includes/DummyData/Importer.php:192
 msgid "A product with this SKU already exists in another vendor."
-msgstr ""
+msgstr "Um produto com esta SKU já existe em outro fornecedor."
 
 #: includes/DummyData/Importer.php:204
 msgid "A product with this SKU already exists."
-msgstr ""
+msgstr "Um produto com esta SKU já existe."
 
 #: includes/DummyData/Importer.php:216
-#, fuzzy
-#| msgid "Shows if the product is on sale."
 msgid "No matching product exists to update."
-msgstr "Mostra se o produto está em oferta."
+msgstr "Não existe nenhum produto correspondente a ser atualizado."
 
 #: includes/DummyData/Importer.php:301
-#, fuzzy
-#| msgid "User logged in successfully."
 msgid "Cleared all dummy data successfully."
-msgstr "E-mail enviado com sucesso."
+msgstr "Limpou todos os dados fictícios com sucesso."
 
 #: includes/Emails/ContactSeller.php:31
 msgid "Dokan Contact Vendor"
-msgstr "Vendedor de Contato do Dokan"
+msgstr "Dokan Contate o fornecedor"
 
 #: includes/Emails/ContactSeller.php:32
 msgid ""
@@ -3011,17 +2863,13 @@ msgstr "Escolhe o formato de email a ser enviado."
 
 #. translators: %1: from name, %2: from name
 #: includes/Emails/Manager.php:201
-#, fuzzy
-#| msgid "\"%s\" sent you a message from your \"%s\" store"
 msgid "\"%1$s\" sent you a message from your \"%2$s\" store"
-msgstr "\"%s\" enviou uma mensagem da sua loja \"%s\""
+msgstr "\"%1$s\" enviou a você uma mensagem de seu \"%2$s\" loja"
 
 #. translators: %1: from name, %2: status
 #: includes/Emails/Manager.php:253
-#, fuzzy
-#| msgid "[%s] Refund Request %s"
 msgid "[%1$s] Refund Request %2$s"
-msgstr "[%s] Pedido de reembolso %s"
+msgstr "[%1$s] Pedido de Reembolso %2$s"
 
 #. translators: %s: from name
 #: includes/Emails/Manager.php:287
@@ -3160,44 +3008,38 @@ msgid "{product_title} - is published"
 msgstr "{product_title} - foi publicado"
 
 #: includes/Emails/ReverseWithdrawalInvoice.php:47
-#, fuzzy
-#| msgid "Dokan New Withdrawal Request"
 msgid "Dokan Reverse Withdrawal Invoice"
-msgstr "Nova Solicitação de Retirada do Dokan"
+msgstr "Dokan Fatura de Retirada Inversa"
 
 #: includes/Emails/ReverseWithdrawalInvoice.php:48
-#, fuzzy
-#| msgid ""
-#| "These emails are sent to vendor when a vendor withdraw request is approved"
 msgid ""
 "These emails are sent to the vendor(s) who has a due reverse withdrawal "
 "payment based on settings."
 msgstr ""
-"Estes e-mails são enviados ao vendedor quando uma solicitação de retirada do "
-"vendedor for aprovada"
+"Estes e-mails são enviados para o(s) fornecedor(es) que tem um pagamento de "
+"retirada reverso devido com base nas configurações."
 
 #: includes/Emails/ReverseWithdrawalInvoice.php:73
 msgid ""
 "[{site_title}]: Your {month} invoice for store: {store_name} is available"
 msgstr ""
+"[{site_title}]: Seu {month} fatura para loja: {store_name} está disponível"
 
 #: includes/Emails/ReverseWithdrawalInvoice.php:84
 msgid "Your latest {site_title} invoice"
-msgstr ""
+msgstr "Sua última fatura {site_title}"
 
 #: includes/Emails/ReverseWithdrawalInvoice.php:95
-#, fuzzy
-#| msgid "Thanks for being with us."
 msgid "Thanks for using {site_url}!"
-msgstr "Obrigado por estar conosco."
+msgstr "Obrigado por utilizar o {site_url}!"
 
 #: includes/Emails/ReverseWithdrawalInvoice.php:236
 msgid "Additional content"
-msgstr ""
+msgstr "Conteúdo adicional"
 
 #: includes/Emails/ReverseWithdrawalInvoice.php:237
 msgid "Text to appear below the main email content."
-msgstr ""
+msgstr "Texto a ser exibido abaixo do conteúdo principal do e-mail."
 
 #: includes/Emails/ReverseWithdrawalInvoice.php:239
 #: templates/orders/order-tax-html.php:8
@@ -3205,40 +3047,32 @@ msgid "N/A"
 msgstr "N/A"
 
 #: includes/Emails/VendorCompletedOrder.php:25
-#, fuzzy
-#| msgid "Dokan Vendor New Order"
 msgid "Dokan Vendor Completed Order"
-msgstr "Nova ordem do fornecedor Dokan"
+msgstr "Dokan Vendor Completou Pedido"
 
 #: includes/Emails/VendorCompletedOrder.php:26
-#, fuzzy
-#| msgid ""
-#| "New order emails are sent to chosen recipient(s) when a new order is "
-#| "received."
 msgid ""
 "Completed order emails are sent to chosen recipient(s) when a order is "
 "completed."
 msgstr ""
-"Emails de novo pedido são enviados para destinatário(s) escolhido(s) quando "
-"um novo pedido é recebido."
+"Os e-mails de pedidos concluídos são enviados para o(s) destinatário(s) "
+"escolhido(s) quando um pedido é concluído."
 
 #: includes/Emails/VendorCompletedOrder.php:54
-#, fuzzy
-#| msgid "[{site_title}] New customer order ({order_number}) - {order_date}"
 msgid ""
 "[{site_title}] Your customer order is now complete ({order_number}) - "
 "{order_date}"
-msgstr "[{site_title}] Novo pedido de cliente ({order_number}) - {order_date}"
+msgstr ""
+"[{site_title}] Seu pedido de cliente agora está completo ({order_number}) - "
+"{order_date}"
 
 #: includes/Emails/VendorCompletedOrder.php:64
-#, fuzzy
-#| msgid "New Customer Order: #{order_number}"
 msgid "Complete Customer Order: #{order_number}"
-msgstr "Novo pedido do cliente: #{order_number}"
+msgstr "Pedido completo do cliente: #{order_number}"
 
 #: includes/Emails/VendorNewOrder.php:25
 msgid "Dokan Vendor New Order"
-msgstr "Nova ordem do fornecedor Dokan"
+msgstr "Dokan Novo pedido do fornecedor"
 
 #: includes/Emails/VendorNewOrder.php:26
 msgid ""
@@ -3323,7 +3157,7 @@ msgstr ""
 
 #: includes/Order/Hooks.php:356
 msgid "This coupon is invalid for multiple vendors."
-msgstr ""
+msgstr "Este cupom é inválido para múltiplos fornecedores."
 
 #: includes/Order/Hooks.php:370
 msgid "A coupon must be restricted with a vendor product."
@@ -3336,7 +3170,7 @@ msgstr "Não é possível restaurar o estoque para o item %s."
 
 #: includes/Order/Hooks.php:499 includes/Order/Hooks.php:518
 msgid "Stock levels reduced:"
-msgstr ""
+msgstr "Níveis de estoque reduzidos:"
 
 #: includes/Order/functions.php:487
 msgid "Pending Payment"
@@ -3372,10 +3206,8 @@ msgid "Order Total"
 msgstr "Total do Pedido"
 
 #: includes/Order/functions.php:770
-#, fuzzy
-#| msgid "Earning"
 msgid "Earnings"
-msgstr "Ganhando"
+msgstr "Ganhos"
 
 #: includes/Order/functions.php:771 includes/REST/OrderController.php:102
 msgid "Order Status"
@@ -3862,7 +3694,7 @@ msgstr "Endereço do banco"
 #: includes/Privacy.php:279 src/admin/pages/VendorPaymentFields.vue:44
 #: templates/settings/bank-payment-method-settings.php:79
 msgid "IBAN"
-msgstr "CPF"
+msgstr "IBAN"
 
 #: includes/Privacy.php:280
 msgid "Swift Code"
@@ -3882,20 +3714,16 @@ msgid "Vendor %s data is removed."
 msgstr "Os dados do fornecedor% s são removidos."
 
 #: includes/Product/Hooks.php:53
-#, fuzzy
-#| msgid "Product not found"
 msgid "Products not found with this search"
-msgstr "Produto Não Encontrado"
+msgstr "Produtos não encontrados com esta busca"
 
 #: includes/Product/Hooks.php:141
 msgid "SKU:"
-msgstr ""
+msgstr "SKU:"
 
 #: includes/Product/Hooks.php:178
-#, fuzzy
-#| msgid "Product name."
 msgid "Enter product name"
-msgstr "Nome do Produto."
+msgstr "Digite o nome do produto"
 
 #: includes/Product/Hooks.php:180 includes/Product/functions.php:363
 #: templates/products/listing-filter.php:69
@@ -3903,28 +3731,24 @@ msgid "Search"
 msgstr "Pesquisar"
 
 #: includes/Product/Hooks.php:183
-#, fuzzy
-#| msgid "Show Sub-Orders"
 msgid "Shop order"
-msgstr "Mostrar Sub-Pedidos"
+msgstr "Pedido de loja"
 
 #: includes/Product/Manager.php:468
 msgid "No product ID found for updating"
-msgstr "Nenhum ID de produto encontrado para atualização"
+msgstr "Nenhuma identificação de produto encontrada para atualização"
 
 #: includes/Product/VendorStoreInfo.php:62
-#, fuzzy
-#| msgid "Vendor Info"
 msgid "Show Vendor Info"
-msgstr "Ver Lojinha"
+msgstr "Mostrar informações do fornecedor"
 
 #: includes/Product/VendorStoreInfo.php:63
 msgid "Show vendor information on single product page"
-msgstr ""
+msgstr "Mostrar informações do fornecedor em uma única página de produto"
 
 #: includes/Product/functions.php:70
 msgid "Sorry, You can not modify another vendor's product !"
-msgstr ""
+msgstr "Desculpe, você não pode modificar o produto de outro fornecedor!"
 
 #: includes/Product/functions.php:202
 msgid ""
@@ -4126,118 +3950,90 @@ msgstr "Visualizar"
 
 #: includes/Product/functions.php:594
 msgid "Default sorting"
-msgstr ""
+msgstr "Classificação padrão"
 
 #: includes/Product/functions.php:595
-#, fuzzy
-#| msgid "Most Popular"
 msgid "Sort by popularity"
-msgstr "Mais Popular"
+msgstr "Ordenar por popularidade"
 
 #: includes/Product/functions.php:596
-#, fuzzy
-#| msgid "Reviews average rating."
 msgid "Sort by average rating"
-msgstr "Comentários das avaliações médias."
+msgstr "Ordenar pela classificação média"
 
 #: includes/Product/functions.php:597
-#, fuzzy
-#| msgid "Sort by"
 msgid "Sort by latest"
-msgstr "Sort by"
+msgstr "Ordenar por último"
 
 #: includes/Product/functions.php:598
 msgid "Sort by price: low to high"
-msgstr ""
+msgstr "Ordenar por preço: de baixo para alto"
 
 #: includes/Product/functions.php:599
 msgid "Sort by price: high to low"
-msgstr ""
+msgstr "Ordenar por preço: de alto a baixo"
 
 #: includes/Product/functions.php:607
 msgid "Relevance"
-msgstr ""
+msgstr "Relevância"
 
 #: includes/ProductSections/BestSelling.php:39
-#, fuzzy
-#| msgid "Best Selling Product"
 msgid "Best Selling Products"
 msgstr "Produto Mais Vendido"
 
 #: includes/ProductSections/BestSelling.php:52
-#, fuzzy
-#| msgid "Best Selling Product"
 msgid "best selling products"
 msgstr "Produto Mais Vendido"
 
 #: includes/ProductSections/Featured.php:39
-#, fuzzy
-#| msgid "Featured product."
 msgid "Featured Products"
 msgstr "Produto em Destaque."
 
 #: includes/ProductSections/Featured.php:52
-#, fuzzy
-#| msgid "Featured product."
 msgid "featured products"
 msgstr "Produto em Destaque."
 
 #: includes/ProductSections/Latest.php:39
-#, fuzzy
-#| msgid "%s Products"
 msgid "Latest Products"
-msgstr "%s Produtos"
+msgstr "Produtos mais recentes"
 
 #: includes/ProductSections/Latest.php:52
-#, fuzzy
-#| msgid "Delete product"
 msgid "latest products"
-msgstr "Excluir produto"
+msgstr "últimos produtos"
 
 #. translators: %s: product section name.
 #: includes/ProductSections/Manager.php:99
 msgid "Hide %s section"
-msgstr ""
+msgstr "Ocultar a seção %s"
 
 #. translators: %s: product section name.
 #: includes/ProductSections/Manager.php:121
 msgid "Section title for %s"
-msgstr ""
+msgstr "Título da seção para %s"
 
 #: includes/ProductSections/Manager.php:181
-#, fuzzy
-#| msgid "Products"
 msgid "All Products"
-msgstr "Produtos"
+msgstr "Todos Produtos"
 
 #: includes/ProductSections/Manager.php:219
-#, fuzzy
-#| msgid "Set your extra product options"
 msgid "Store page product sections"
-msgstr "Defina suas opções adicionais de produtos"
+msgstr "Página da loja seções de produtos"
 
 #. translators: %s: product section name.
 #: includes/ProductSections/Manager.php:230
-#, fuzzy
-#| msgid "Short Description"
 msgid "Show %s section"
-msgstr "Descrição curta"
+msgstr "Mostrar seção %s"
 
 #: includes/ProductSections/TopRated.php:39
-#, fuzzy
-#| msgid "Top Rated Product"
 msgid "Top Rated Products"
-msgstr "Produto com melhor classificação"
+msgstr "Produtos mais vendidos"
 
 #: includes/ProductSections/TopRated.php:52
-#, fuzzy
-#| msgid "Top Rated Product"
 msgid "top rated products"
-msgstr "Produto com melhor classificação"
+msgstr "produtos com a melhor classificação"
 
 #: includes/REST/AdminDashboardController.php:40
 msgid "Number of feed item"
-msgstr "Número do Item"
+msgstr "Number of feed item"
 
 #: includes/REST/AdminDashboardController.php:46
 msgid "Flag for showing summary"
@@ -4275,10 +4071,8 @@ msgid "Orders"
 msgstr "Pedidos"
 
 #: includes/REST/DummyDataController.php:162
-#, fuzzy
-#| msgid "New Vendor Product Upload"
 msgid "Vendors products data."
-msgstr "Novo carregamento de produtos do fornecedor"
+msgstr "Dados de produtos de vendedores."
 
 #: includes/REST/DummyDataController.php:170
 #: includes/REST/OrderController.php:863
@@ -4808,134 +4602,92 @@ msgid "Meta value."
 msgstr "Valor meta [Meta value.]."
 
 #: includes/REST/DummyDataController.php:778
-#, fuzzy
-#| msgid "Dokan vendor personal data."
 msgid "Vendors profile data."
-msgstr "Dados pessoais do vendedor Dokan."
+msgstr "Dados do perfil do fornecedor."
 
 #: includes/REST/DummyDataController.php:786
-#, fuzzy
-#| msgid "Vendor Details:"
 msgid "Vendor email."
-msgstr "Detalhes do Vendedor:"
+msgstr "E-mail do fornecedor."
 
 #: includes/REST/DummyDataController.php:791
-#, fuzzy
-#| msgid "Vendor Dashboard"
 msgid "Vendor password."
-msgstr "Painel do Vendedor"
+msgstr "Senha do fornecedor."
 
 #: includes/REST/DummyDataController.php:796
-#, fuzzy
-#| msgid "Vendor Store :"
 msgid "Vendor store name."
-msgstr "Loja do Vendedor:"
+msgstr "Nome da loja do fornecedor."
 
 #: includes/REST/DummyDataController.php:801
-#, fuzzy
-#| msgid "Vendors"
 msgid "Vendor social"
-msgstr "Vendedores"
+msgstr "Fornecedor social"
 
 #: includes/REST/DummyDataController.php:806
-#, fuzzy
-#| msgid "Vendor Data"
 msgid "Vendor payments"
-msgstr "Dados do fornecedor"
+msgstr "Pagamentos de fornecedores"
 
 #: includes/REST/DummyDataController.php:811
-#, fuzzy
-#| msgid "Vendor :"
 msgid "Vendor phone"
-msgstr "Vendedor:"
+msgstr "Telefone do fornecedor"
 
 #: includes/REST/DummyDataController.php:816
-#, fuzzy
-#| msgid "Vendor Details:"
 msgid "Vendor show email"
-msgstr "Detalhes do Vendedor:"
+msgstr "E-mail do fornecedor"
 
 #: includes/REST/DummyDataController.php:821
-#, fuzzy
-#| msgid "Find Address"
 msgid "Vendor address"
-msgstr "Encontrar endereço"
+msgstr "Endereço do fornecedor"
 
 #: includes/REST/DummyDataController.php:826
-#, fuzzy
-#| msgid "Vendor Information"
 msgid "Vendor location"
-msgstr "Informações do Vendedor"
+msgstr "Localização do fornecedor"
 
 #: includes/REST/DummyDataController.php:831
-#, fuzzy
-#| msgid "Vendor Dashboard"
 msgid "Vendor banner"
-msgstr "Painel do Vendedor"
+msgstr "Banner do fornecedor"
 
 #: includes/REST/DummyDataController.php:836
-#, fuzzy
-#| msgid "Vendor :"
 msgid "Vendor icon"
-msgstr "Vendedor:"
+msgstr "Ícone do fornecedor"
 
 #: includes/REST/DummyDataController.php:841
-#, fuzzy
-#| msgid "Vendor Data"
 msgid "Vendor gravatar"
-msgstr "Dados do fornecedor"
+msgstr "Gravata de fornecedor"
 
 #: includes/REST/DummyDataController.php:846
-#, fuzzy
-#| msgid "Vendor Store :"
 msgid "Vendor show more tpab"
-msgstr "Loja do Vendedor:"
+msgstr "Fornecedores mostram mais tpab"
 
 #: includes/REST/DummyDataController.php:851
-#, fuzzy
-#| msgid "Store Product Per Page"
 msgid "Vendor show product per page"
-msgstr "Loja de Produto por Página"
+msgstr "Fornecedor mostrar produto por página"
 
 #: includes/REST/DummyDataController.php:856
-#, fuzzy
-#| msgid "Terms and Conditions"
 msgid "Enable terms and condition"
-msgstr "Termos e Condições"
+msgstr "Habilitar termos e condições"
 
 #: includes/REST/DummyDataController.php:861
-#, fuzzy
-#| msgid "Store Closed"
 msgid "Store seo"
-msgstr "Loja fechada"
+msgstr "Seo da loja"
 
 #: includes/REST/DummyDataController.php:866
-#, fuzzy
-#| msgid "Store is closed"
 msgid "Store time open close array."
-msgstr "A loja está fechada"
+msgstr "Tempo de armazenamento aberto e fechado."
 
 #: includes/REST/DummyDataController.php:871
-#, fuzzy
-#| msgid "Vendor Created"
 msgid "Vendor enabled."
-msgstr "Fornecedor criado"
+msgstr "Fornecedor habilitado."
 
 #: includes/REST/DummyDataController.php:876
-#, fuzzy
-#| msgid "Vendor Created"
 msgid "Vendor is trusted."
-msgstr "Fornecedor criado"
+msgstr "O fornecedor é confiável."
 
 #: includes/REST/DummyDataController.php:884
 msgid "Vendor item index to import."
-msgstr ""
+msgstr "Índice de itens de fornecedores a importar."
 
 #: includes/REST/DummyDataController.php:890
-#, fuzzy
-#| msgid "Total Sales"
 msgid "Total vendors"
-msgstr "Total de Vendas"
+msgstr "Total de fornecedores"
 
 #: includes/REST/OrderController.php:85 includes/REST/OrderController.php:116
 #: includes/REST/OrderController.php:147 includes/REST/ProductController.php:60
@@ -5422,17 +5174,15 @@ msgid "Top rated product for specific vendor"
 msgstr "Produto com melhor avaliação para um vendedor específico"
 
 #: includes/REST/ProductController.php:290
-#, fuzzy
-#| msgid "Your account is not enabled for selling, please contact the admin"
 msgid ""
 "Error! Your account is not enabled for selling, please contact the admin"
 msgstr ""
-"Sua conta não está habilitada para venda, entre em contato com o "
-"administrador"
+"Erro! Sua conta não está habilitada para venda, favor entrar em contato com "
+"a administração"
 
 #: includes/REST/ProductController.php:299
 msgid "Product title must be required"
-msgstr "Título do produto deve ser exigido"
+msgstr "O título do produto deve ser exigido"
 
 #: includes/REST/ProductController.php:305
 msgid "Category must be required"
@@ -5445,7 +5195,7 @@ msgstr "Você não pode selecionar mais categorias"
 #: includes/REST/ProductController.php:1326
 #: includes/REST/ProductController.php:1327
 msgid "Placeholder"
-msgstr "Placeholder"
+msgstr "Local de instalação"
 
 #. translators: %s: attachment id
 #: includes/REST/ProductController.php:1552
@@ -5455,86 +5205,80 @@ msgstr "#%s é um ID de imagem inválido."
 #: includes/REST/ReverseWithdrawalController.php:413
 #: includes/REST/ReverseWithdrawalController.php:456
 msgid "Vendor ID to filter form"
-msgstr ""
+msgstr "Identificação do fornecedor para filtrar a formulário"
 
 #: includes/REST/ReverseWithdrawalController.php:422
 #: includes/REST/ReverseWithdrawalController.php:469
 msgid "Get transactions via date range"
-msgstr ""
+msgstr "Obtenha transações via intervalo de datas"
 
 #: includes/REST/ReverseWithdrawalController.php:462
 #: includes/REST/ReverseWithdrawalController.php:582
 msgid "Transaction type to filter form"
-msgstr ""
+msgstr "Tipo de transação para filtrar a formulário"
 
 #: includes/REST/ReverseWithdrawalController.php:508
 #: includes/REST/ReverseWithdrawalController.php:588
 msgid "ID of the Store"
-msgstr ""
+msgstr "ID da loja"
 
 #: includes/REST/ReverseWithdrawalController.php:514
 #: includes/REST/ReverseWithdrawalController.php:600
 msgid "Amount that site admin charged to store owner"
-msgstr ""
+msgstr "Quantia que o administrador do site cobra do proprietário da loja"
 
 #: includes/REST/ReverseWithdrawalController.php:520
 #: includes/REST/ReverseWithdrawalController.php:606
 msgid "Amount that has been paid via store owner to site admin"
 msgstr ""
+"Quantia que foi paga através do proprietário da loja ao administrador do "
+"local"
 
 #: includes/REST/ReverseWithdrawalController.php:526
 #: includes/REST/ReverseWithdrawalController.php:612
 msgid "Amount currently site owners owns from store owner"
 msgstr ""
+"Quantia que atualmente os proprietários do site possuem do proprietário da "
+"loja"
 
 #: includes/REST/ReverseWithdrawalController.php:532
 #: includes/REST/ReverseWithdrawalController.php:576
 msgid "Localized date of last payment received date."
-msgstr ""
+msgstr "Data localizada da data do último pagamento recebido."
 
 #: includes/REST/ReverseWithdrawalController.php:557
-#, fuzzy
-#| msgid "Unique transaction ID."
 msgid "ID of the transaction"
-msgstr "ID da Transação."
+msgstr "ID da transação"
 
 #: includes/REST/ReverseWithdrawalController.php:563
 #: src/admin/pages/ReverseWithdrawalTransactions.vue:178
 #: templates/reverse-withdrawal/transaction-listing.php:16
-#, fuzzy
-#| msgid "Unique transaction ID."
 msgid "Transaction ID"
-msgstr "ID da Transação."
+msgstr "ID Transação."
 
 #: includes/REST/ReverseWithdrawalController.php:569
-#, fuzzy
-#| msgid "Unique transaction ID."
 msgid "Transaction URL."
-msgstr "ID da Transação."
+msgstr "URL da transação."
 
 #: includes/REST/ReverseWithdrawalController.php:594
-#, fuzzy
-#| msgid "Add note"
 msgid "Added note."
 msgstr "Adicionar nota"
 
 #: includes/REST/ReverseWithdrawalController.php:637
 msgid "ID of the transaction type"
-msgstr ""
+msgstr "ID do tipo de transação"
 
 #: includes/REST/ReverseWithdrawalController.php:643
 msgid "Translated title of the transaction type"
-msgstr ""
+msgstr "Título traduzido do tipo de transação"
 
 #: includes/REST/ReverseWithdrawalController.php:668
 msgid "ID of the store"
-msgstr ""
+msgstr "ID da loja"
 
 #: includes/REST/ReverseWithdrawalController.php:674
-#, fuzzy
-#| msgid "User agent of the customer."
 msgid "Name of the store"
-msgstr "Agente do usuário do cliente."
+msgstr "Nome da loja"
 
 #: includes/REST/StoreController.php:77
 msgid "Reassign the deleted user's posts and links to this user ID."
@@ -5559,10 +5303,8 @@ msgid "Status for the store object."
 msgstr "Status do objeto de loja."
 
 #: includes/REST/StoreController.php:208
-#, fuzzy
-#| msgid "Best Selling Product"
 msgid "Get Best Selling Products Category."
-msgstr "Produto Mais Vendido"
+msgstr "Obtenha a Categoria de Produtos Mais Vendidos."
 
 #: includes/REST/StoreController.php:312 includes/REST/StoreController.php:383
 #: includes/REST/StoreController.php:543 includes/REST/StoreController.php:939
