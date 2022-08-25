@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Dokan\n"
 "Report-Msgid-Bugs-To: https://wedevs.com/contact/\n"
 "POT-Creation-Date: 2022-08-10 06:15:45+00:00\n"
-"PO-Revision-Date: 2022-08-23 14:33-0300\n"
+"PO-Revision-Date: 2022-08-23 16:12-0300\n"
 "Last-Translator: \n"
 "Language-Team: Português do Brasil\n"
 "Language: pt_BR\n"
@@ -5346,10 +5346,8 @@ msgid "No vendor found"
 msgstr "Nenhum vendedor encontrado"
 
 #: includes/REST/StoreSettingController.php:124
-#, fuzzy
-#| msgid "You are already logged in"
 msgid "You are not logged in"
-msgstr "Você já está logado"
+msgstr "Você não está logado"
 
 #: includes/REST/WithdrawController.php:45
 msgid "IDs of withdraws"
@@ -5438,92 +5436,97 @@ msgid "Please provide a shop name."
 msgstr "Por favor, digite um nome para loja."
 
 #: includes/ReverseWithdrawal/Admin/Settings.php:46
-#, fuzzy
-#| msgid "%s Withdrawals"
 msgid "Enable Reverse Withdrawal"
-msgstr "retiradas de %s"
+msgstr "Habilitar Retirada reversa"
 
 #: includes/ReverseWithdrawal/Admin/Settings.php:47
 msgid ""
 "Check this checkbox if you want to enable reverse withdrawal feature for "
 "vendors."
 msgstr ""
+"Marque esta caixa de seleção se você quiser ativar o recurso de retirada "
+"reversa para fornecedores."
 
 #: includes/ReverseWithdrawal/Admin/Settings.php:54
 msgid "Enable Reverse Withdrawal for this Gateway"
-msgstr ""
+msgstr "Habilitar Retirada Inversa para este Gateway"
 
 #: includes/ReverseWithdrawal/Admin/Settings.php:55
 msgid ""
 "Check the payment gateways you want to enable reverse withdrawal for. For "
 "now, only cash on delivery is available."
 msgstr ""
+"Verifique as portas de pagamento que você deseja habilitar para retirada "
+"reversa. Por enquanto, apenas dinheiro na entrega está disponível."
 
 #: includes/ReverseWithdrawal/Admin/Settings.php:62
-#, fuzzy
-#| msgid "Billing City"
 msgid "Billing Type"
-msgstr "Cobrança: Cidade"
+msgstr "Tipo de cobrança"
 
 #: includes/ReverseWithdrawal/Admin/Settings.php:63
 msgid "Select how vendors will be charged for their reverse balance."
-msgstr ""
+msgstr "Selecione como os fornecedores serão cobrados por seu saldo reverso."
 
 #: includes/ReverseWithdrawal/Admin/Settings.php:70
 msgid "Reverse Balance Threshold"
-msgstr ""
+msgstr "Limiar de Balanço Inverso"
 
 #: includes/ReverseWithdrawal/Admin/Settings.php:71
 msgid "Set reverse withdrawal threshold limit."
-msgstr ""
+msgstr "Estabelecer limite de retirada reversa."
 
 #: includes/ReverseWithdrawal/Admin/Settings.php:84
-#, fuzzy
-#| msgid "Billing State"
 msgid "Monthly Billing Date"
-msgstr "Estado para cobrança"
+msgstr "Data de Faturamento Mensal"
 
 #: includes/ReverseWithdrawal/Admin/Settings.php:85
 msgid ""
 "Enter the day of month when you want to send reverse withdrawal balance "
 "invoice to vendors."
 msgstr ""
+"Digite o dia do mês em que você deseja enviar a fatura do saldo de saque "
+"reverso aos fornecedores."
 
 #: includes/ReverseWithdrawal/Admin/Settings.php:99
 msgid "Grace Period"
-msgstr ""
+msgstr "Período de Carência"
 
 #: includes/ReverseWithdrawal/Admin/Settings.php:100
 msgid ""
 "Maximum payment due period in day(s) before selected action(s) is/are taken. "
 "Enter 0 to take action(s) immediately."
 msgstr ""
+"Prazo máximo de pagamento devido em dia(s) antes da(s) ação(ões) "
+"selecionada(s) ser(em) tomada(s). Insira 0 para tomar a(s) ação(ões) "
+"imediatamente."
 
 #: includes/ReverseWithdrawal/Admin/Settings.php:109
 msgid "After Grace Period"
-msgstr ""
+msgstr "Após o Período de Carência"
 
 #: includes/ReverseWithdrawal/Admin/Settings.php:110
 msgid ""
 "Select one or more actions to perform after due period is over and vendors "
 "was unable to pay."
 msgstr ""
+"Selecione uma ou mais ações a serem executadas após o vencimento ter "
+"terminado e os fornecedores não puderam pagar."
 
 #: includes/ReverseWithdrawal/Admin/Settings.php:117
 msgid "Display Notice During Grace Period"
-msgstr ""
+msgstr "Aviso de exibição durante o período de carência"
 
 #: includes/ReverseWithdrawal/Admin/Settings.php:118
 msgid ""
 "Display notice to pay reverse withdrawal balance during grace period under "
 "vendor dashboard."
 msgstr ""
+"Exibir aviso para pagar o saldo de saque reverso durante o período de "
+"carência no painel do fornecedor."
 
 #: includes/ReverseWithdrawal/Admin/Settings.php:128
-#, fuzzy
-#| msgid "View announcement"
 msgid "Send Announcement?"
-msgstr "Exibir comunicados"
+msgstr "Enviar Anúncio?"
 
 #: includes/ReverseWithdrawal/Admin/Settings.php:129
 msgid ""
@@ -5531,99 +5534,81 @@ msgid ""
 "period. Note that a maximum of one announcement will be sent during a single "
 "billing period."
 msgstr ""
+"Marque esta caixa de seleção se você quiser enviar um anúncio durante o "
+"período de carência. Observe que no máximo um anúncio será enviado durante "
+"um único período de faturamento.."
 
 #: includes/ReverseWithdrawal/Admin/Settings.php:164
-#, fuzzy
-#| msgid "Please select a category"
 msgid "Please select a value for billing type field."
-msgstr "Selecione uma categoria"
+msgstr "Por favor, selecione um valor para o campo tipo de faturamento."
 
 #: includes/ReverseWithdrawal/Admin/Settings.php:168
 msgid "Due period cannot be negative or empty."
-msgstr ""
+msgstr "O prazo de vencimento não pode ser negativo ou vazio."
 
 #: includes/ReverseWithdrawal/Admin/Settings.php:168
-#, fuzzy
-#| msgid "Withdraw amount must be greater than %s"
 msgid "Due period cannot be greater than 28."
-msgstr "O valor do saque deve ser maior que %s"
+msgstr "O prazo de vencimento não pode ser maior do que 28."
 
 #: includes/ReverseWithdrawal/Admin/Settings.php:178
-#, fuzzy
-#| msgid "Please select a category"
 msgid "Please select at least one action."
-msgstr "Selecione uma categoria"
+msgstr "Por favor, selecione pelo menos uma ação."
 
 #: includes/ReverseWithdrawal/Admin/Settings.php:186
 msgid "Reverse balance threshold cannot be empty, zero or negative."
-msgstr ""
+msgstr "O balanço de saldo reverso não pode ser vazio, zero ou negativo."
 
 #: includes/ReverseWithdrawal/Admin/Settings.php:191
 msgid "Monthly billing day cannot be empty or less than 1."
-msgstr ""
+msgstr "O dia de faturamento mensal não pode estar vazio ou ser inferior a 1."
 
 #: includes/ReverseWithdrawal/Admin/Settings.php:191
 msgid "Monthly billing day cannot be greater than 28."
-msgstr ""
+msgstr "O dia de faturamento mensal não pode ser maior que 28."
 
 #: includes/ReverseWithdrawal/Admin/Settings.php:202
 msgid "Monthly billing day + due period cannot be greater than 28."
 msgstr ""
+"O dia de faturamento mensal + prazo de vencimento não pode ser maior que 28."
 
 #: includes/ReverseWithdrawal/Ajax.php:41
-#, fuzzy
-#| msgid "You do not have permission to change this order"
 msgid "You do not have permission to use this action."
-msgstr "Você não tem permissão para alterar este pedido"
+msgstr "Você não tem permissão para usar esta ação."
 
 #: includes/ReverseWithdrawal/Ajax.php:49
-#, fuzzy
-#| msgid "Please enter a value less than or equal to {0}."
 msgid "Payment can not be less than or equal to zero."
-msgstr "Por favor insira um valor menor ou igual a {0}."
+msgstr "O pagamento não pode ser menor ou igual a zero."
 
 #: includes/ReverseWithdrawal/Ajax.php:55
-#, fuzzy
-#| msgid "No withdraw method is available. Please contact site admin."
 msgid "Invalid base payment product id. Please contact with site admin."
 msgstr ""
-"Não há método de saque disponível. Por favor, entre em contato com o "
-"administrador do site."
+"Id. de produto de pagamento de base inválido. Favor entrar em contato com a "
+"administração do site."
 
 #: includes/ReverseWithdrawal/Ajax.php:60
-#, fuzzy
-#| msgid "No withdraw method is available. Please contact site admin."
 msgid "Invalid base payment product found. Please contact with site admin."
 msgstr ""
-"Não há método de saque disponível. Por favor, entre em contato com o "
-"administrador do site."
+"Produto de pagamento de base inválido encontrado. Favor entrar em contato "
+"com a administração do site."
 
 #: includes/ReverseWithdrawal/Ajax.php:64
-#, fuzzy
-#| msgid "No withdraw method is available. Please contact site admin."
 msgid ""
 "Base payment product status is not published. Please contact with site admin."
 msgstr ""
-"Não há método de saque disponível. Por favor, entre em contato com o "
-"administrador do site."
+"O status do produto de pagamento base não é publicado. Favor entrar em "
+"contato com a administração do site."
 
 #: includes/ReverseWithdrawal/Ajax.php:77
-#, fuzzy
-#| msgid "Something went wrong. Please try again."
 msgid "Something went wrong while adding product to cart."
-msgstr "Algo deu errado. Por favor, tente novamente."
+msgstr "Algo deu errado ao adicionar o produto ao carrinho."
 
 #: includes/ReverseWithdrawal/Ajax.php:81
-#, fuzzy
-#| msgid "The product has been saved successfully."
 msgid "Product has been added to your cart."
-msgstr "O produto foi salvo com sucesso."
+msgstr "O produto foi adicionado ao seu carrinho."
 
 #: includes/ReverseWithdrawal/Ajax.php:84
-#, fuzzy
-#| msgid "Something went wrong"
 msgid "Something Went Wrong."
-msgstr "Algo deu errado"
+msgstr "Alguma coisa estava errada."
 
 #. translators: 1) Product title
 #: includes/ReverseWithdrawal/Cart.php:92
@@ -5631,158 +5616,160 @@ msgid ""
 "<strong>Error!</strong> Could not add product <strong>%1$s</strong> to cart. "
 "You can not purchase other products along with reverse withdrawal payment."
 msgstr ""
+"<strong>Error!</strong> Não foi possível adicionar produto <strong>%1$s</"
+"strong> ao carrinho. Você não pode adquirir outros produtos junto com o "
+"pagamento de retirada reversa."
 
 #: includes/ReverseWithdrawal/Helper.php:62
 msgid "Opening Balance"
-msgstr ""
+msgstr "Saldo inicial"
 
 #: includes/ReverseWithdrawal/Helper.php:65
 msgid "Failed Transfer Reversal"
-msgstr ""
+msgstr "Falha na Reversão de Transferência"
 
 #: includes/ReverseWithdrawal/Helper.php:66
-#, fuzzy
-#| msgid "Product description."
 msgid "Product Advertisement"
-msgstr "Descrição do Curso."
+msgstr "Anúncio de produto"
 
 #: includes/ReverseWithdrawal/Helper.php:67
-#, fuzzy
-#| msgid "Admin Commission"
 msgid "Manual Order Commission"
-msgstr "Comissão de administração"
+msgstr "Comissão de Pedido Manual"
 
 #: includes/ReverseWithdrawal/Helper.php:70
 #: src/admin/pages/VendorCapabilities.vue:129
-#, fuzzy
-#| msgid "Refunded"
 msgid "Refund"
-msgstr "Devolvido"
+msgstr "Reembolso"
 
 #: includes/ReverseWithdrawal/Helper.php:328
 #: includes/ReverseWithdrawal/Manager.php:366
 #: includes/ReverseWithdrawal/Manager.php:402
-#, fuzzy
-#| msgid "No vendor found"
 msgid "No vendor id provided"
-msgstr "Nenhum vendedor encontrado"
+msgstr "Nenhuma id de fornecedor fornecida"
 
 #: includes/ReverseWithdrawal/Helper.php:335
 #: includes/ReverseWithdrawal/Helper.php:400
 #: includes/ReverseWithdrawal/Helper.php:466
-#, fuzzy
-#| msgid "Invalid order"
 msgid "Invalid date provided"
-msgstr "Pedido Inválido"
+msgstr "Data inválida fornecida"
 
 #: includes/ReverseWithdrawal/Helper.php:455
-#, fuzzy
-#| msgid "Invalid order"
 msgid "Invalid vendor provided."
-msgstr "Pedido Inválido"
+msgstr "Fornecedor inválido fornecido."
 
 #: includes/ReverseWithdrawal/Helper.php:598
 msgid ""
 "Your products add to cart will be hidden. Hence users will not be able to "
 "purchase any of your products."
 msgstr ""
+"Seus produtos adicionados ao carrinho serão escondidos. Portanto, os "
+"usuários não poderão adquirir nenhum de seus produtos."
 
 #: includes/ReverseWithdrawal/Helper.php:602
 msgid ""
 "Withdraw menu will be hidden. Hence you will not be able to make any "
 "withdraw request from your account."
 msgstr ""
+"O menu de retirada será escondido. Portanto, você não poderá fazer nenhum "
+"pedido de saque de sua conta."
 
 #: includes/ReverseWithdrawal/Helper.php:606
 msgid ""
 "Your account will be disabled for selling. Hence you will no longer be able "
 "to sell any products."
 msgstr ""
+"Sua conta será desativada para venda. Portanto, você não poderá mais vender "
+"nenhum produto."
 
 #: includes/ReverseWithdrawal/Helper.php:641
 msgid ""
 "Your products add to cart button has been temporarily hidden. Hence users "
 "are not able to purchase any of your products currently."
 msgstr ""
+"Seus produtos foram temporariamente escondidos no botão do carrinho. "
+"Portanto, os usuários não podem adquirir nenhum de seus produtos atualmente."
 
 #: includes/ReverseWithdrawal/Helper.php:645
 msgid ""
 "Withdraw menu has been temporarily hidden. Hence you are not able to make "
 "any withdrawal requests from your account."
 msgstr ""
+"O menu de retirada foi temporariamente escondido. Portanto, você não pode "
+"fazer nenhum pedido de saque em sua conta."
 
 #: includes/ReverseWithdrawal/Helper.php:649
 msgid ""
 "Your account has been temporarily disabled for selling. Hence you are no "
 "longer able to sell any products."
 msgstr ""
+"Sua conta foi temporariamente desativada para venda. Portanto, você não está "
+"mais em condições de vender nenhum produto."
 
 #: includes/ReverseWithdrawal/Manager.php:487
 msgid "No reverse withdrawal data found with given id."
 msgstr ""
+"Não foram encontrados dados de retirada reversa com determinada "
+"identificação."
 
 #: includes/ReverseWithdrawal/Manager.php:519
-#, fuzzy
-#| msgid "This field is required"
 msgid "Transaction id is required."
-msgstr "Esse campo é obrigatório"
+msgstr "A id de transação é necessária."
 
 #: includes/ReverseWithdrawal/Manager.php:523
 msgid "Invalid transaction type is provide. Please check your input."
 msgstr ""
+"O tipo de transação inválida é fornecido. Por favor, verifique sua entrada."
 
 #: includes/ReverseWithdrawal/Manager.php:527
 #: includes/ReverseWithdrawal/Manager.php:648
 msgid "Invalid vendor id provide. Please provide a valid vendor id."
 msgstr ""
+"A id de fornecedor inválido fornece. Por favor, forneça uma id. de "
+"fornecedor válida."
 
 #: includes/ReverseWithdrawal/Manager.php:557
 msgid ""
 "Something went wrong while inserting reverse withdrawal data. Please contact "
 "site admin."
 msgstr ""
+"Algo deu errado ao inserir dados de retirada reversa. Favor entrar em "
+"contato com a administração do site."
 
 #: includes/ReverseWithdrawal/Order.php:154
-#, fuzzy
-#| msgid "Payment method"
 msgid "Payment Amount"
-msgstr "Método de Pagamento"
+msgstr "Valor do pagamento"
 
 #: includes/ReverseWithdrawal/ReverseWithdrawal.php:31
 msgid "Cloning is forbidden."
-msgstr ""
+msgstr "A clonagem é proibida."
 
 #: includes/ReverseWithdrawal/ReverseWithdrawal.php:41
 msgid "Unserializing instances of this class is forbidden."
-msgstr ""
+msgstr "É proibida a des-serialização de instâncias desta classe."
 
 #: includes/ReverseWithdrawal/SettingsHelper.php:160
 msgid "Cash on delivery"
-msgstr ""
+msgstr "Dinheiro na entrega"
 
 #: includes/ReverseWithdrawal/SettingsHelper.php:174
 msgid "By Amount Limit"
-msgstr ""
+msgstr "Por Limite de Montante"
 
 #: includes/ReverseWithdrawal/SettingsHelper.php:175
 msgid "Monthly"
-msgstr ""
+msgstr "Mensal"
 
 #: includes/ReverseWithdrawal/SettingsHelper.php:189
 msgid "Disable Add to Cart Button"
-msgstr ""
+msgstr "Botão Desativar Adicionar ao carrinho de compras"
 
 #: includes/ReverseWithdrawal/SettingsHelper.php:190
-#, fuzzy
-#| msgid "View withdraw menu"
 msgid "Hide Withdraw Menu"
-msgstr "Ver menu de retirada"
+msgstr "Esconder Menu de Retirar"
 
 #: includes/ReverseWithdrawal/SettingsHelper.php:191
-#, fuzzy
-#| msgid "Make Vendor Featured"
 msgid "Make Vendor Status Inactive"
-msgstr "Tornar o fornecedor em destaque"
+msgstr "Tornar o status de fornecedor inativo"
 
 #: includes/Shortcodes/Dashboard.php:25
 msgid ""
@@ -5819,16 +5806,12 @@ msgid "Update"
 msgstr "Atualizar"
 
 #: includes/Upgrade/AdminNotice.php:46
-#, fuzzy
-#| msgid "Update Settings"
 msgid "Updating..."
-msgstr "Atualizar configurações"
+msgstr "Atualizando..."
 
 #: includes/Upgrade/AdminNotice.php:47
-#, fuzzy
-#| msgid "Update"
 msgid "Updated"
-msgstr "Atualizar"
+msgstr "Atualizado"
 
 #: includes/Upgrade/AdminNotice.php:49
 msgid ""
